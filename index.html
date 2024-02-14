@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        h1{
+            width: 20ch;
+            overflow: hidden;   
+            white-space: nowrap;
+            border-right: 3px solid white;
+            animation: type 3s infinite steps(22);
+        }
+        @keyframes type{
+            from{
+                width: 0%;
+            }
+            to{
+                width: 20ch;
+            }
+        }
+        .circle{
+            width: 150px;
+            height: 150px;
+            background-color: azure;
+            margin: auto;
+            border-radius: 50%;
+            animation: circle infinite 2s linear;
+            
+        }
+        @keyframes circle {
+            from{
+                margin-top: 10%;
+            }
+            to{
+                margin-top: 20%;
+            }
+
+        }
+        
+    </style>
+</head>
+<body>
+    <center><h1>This is GitHub Class</h1></center>
+    <div>
+        <div class="circle"></div>
+    </div>
+
+</body>
+</html>
